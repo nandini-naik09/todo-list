@@ -33,7 +33,6 @@ const App = () => {
     <div>
       <center>
       <div>
-        
         <h2>Todo List</h2>
 
         <input classname="task-input" value={input} onInput={(e) => setInput(e.target.value)} />
@@ -56,9 +55,7 @@ const App = () => {
           })}
         </ul>
       </div>
-     
     </div>
-    
   );
 };
 
