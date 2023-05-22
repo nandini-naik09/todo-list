@@ -13,6 +13,9 @@
   }
 }
 
+ul{
+  list-style-type:none;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +31,87 @@
   color: #61dafb;
 }
 
+
+button{
+    background-color:gainsboro;
+    border: none;
+    color: black;
+    padding: 1px 3px;
+    text-decoration: none;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+h2{
+  color:black;
+  font-weight: 500;
+}
+
+.tasklist
+{
+  background-color:#b7ddf0;
+  margin: auto;
+  width: 30%;
+  padding: 2px;
+  color:black;
+  border :5px solid grey;
+  border-radius: 5px;
+
+}
+
+body
+{
+  background-color:beige;
+
+}
+
+.para{
+  text-align: center;
+}
+.task-input
+{
+  width: auto;
+  font-weight: 100;
+  line-height: 15px;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.redirect-link-green-square {
+  border: 1px transparent solid;
+  background: #5dbd3f;
+  width: auto;
+  padding: 5px 10px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 100;
+  line-height: 15px;
+  display: inline-block;
+
+  &.padding{
+    padding: 20px 20px;
+  }
+
+  &.font {
+    font-size: 10px;
+  }
+
+  &.padding {
+    padding: 8px 12px;
+  }
+
+  &:hover {
+    color: #5dbd3f;
+    background: white;
+    border: 3px solid #5dbd3f;
   }
 }
